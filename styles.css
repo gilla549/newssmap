@@ -1,0 +1,64 @@
+
+body {
+  background-color: white
+}
+
+h1 {
+  color: #BB0029; font-family: Typewolf, serif; font-size: 40px;
+}
+
+p {
+  font-family: Typewolf;
+  font-size: 18px;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.picture {
+  width: 500px;
+  height: auto;
+  float: right;
+  margin-bottom: 5%;
+}
+
+.map-container {
+  display: flex;
+  position: relative;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-text {
+  width: 50%;
+  font-family: Typewolf; 
+  font-size:20px;
+  color: #03002C;
+  text-align: left;
+  margin-left: 3%;
+}
+
+#map {
+  display:flex;
+  position: relative;
+  Width: 50vw;
+  min-height: 400px;
+}
+
+.second-body {
+  color: #03002C
+}
+
+a {
+  color: #F5841A;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
